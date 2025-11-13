@@ -1,0 +1,20 @@
+# Revnet Agent-Based Model Dashboard Requirements
+# =================================================
+
+# Core scientific computing
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+
+# Visualization
+plotly>=5.18.0
+kaleido>=0.2.1  # For static image export
+
+# Web framework
+streamlit>=1.29.0
+
+# Utilities
+python-dateutil>=2.8.0
+
+# Optional: For faster computations
+numba>=0.58.0  # JIT compilation for numerical functions
